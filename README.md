@@ -1,12 +1,23 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Project Setup Instructions  
+To run this application locally:  
+1. Clone the repository  
+2. Install dependencies using `npm install`  
+3. Launch the development server with `npm run dev`  
 
-Currently, two official plugins are available:
+### Implemented Features  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Core Data Management  
+- Implemented comprehensive data operations including **filtering**, **sorting**, and **search** functionality  
+- Optimized API response handling with **caching mechanism** to reduce redundant network requests  
+- Built robust **loading state management** during data fetching operations  
 
-## Expanding the ESLint configuration
+#### User Experience  
+- Developed **theme toggling** functionality (light/dark mode) with persistent user preferences  
+- Implemented **favorites system** with local state persistence  
+- Added **note-taking capability** for enhanced user interaction  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#### Technical Implementation  
+- Utilized DataTables for advanced table operations  
+- Integrated with Open Library API for book data  
+- Applied responsive design principles throughout the UI 
