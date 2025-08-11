@@ -1,0 +1,35 @@
+:root {
+  /* Light Mode Colors */
+  --bg-color-light: #ffffff;
+  --text-color-light: #333333;
+  --primary-color-light: #2563eb;
+  --secondary-color-light: #e2e8f0;
+
+  /* Dark Mode Colors */
+  --bg-color-dark: #1a202c;
+  --text-color-dark: #f7fafc;
+  --primary-color-dark: #4299e1;
+  --secondary-color-dark: #2d3748;
+
+  /* Default to light mode */
+  --bg-color: var(--bg-color-light);
+  --text-color: var(--text-color-light);
+  --primary-color: var(--primary-color-light);
+  --secondary-color: var(--secondary-color-light);
+}
+
+/* Dark mode class */
+.dark {
+  --bg-color: var(--bg-color-dark);
+  --text-color: var(--text-color-dark);
+  --primary-color: var(--primary-color-dark);
+  --secondary-color: var(--secondary-color-dark);
+}
+
+/* Apply variables */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
